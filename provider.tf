@@ -5,6 +5,7 @@ provider "aws" {
 }
 
 module "vpc" {
-  source = "github.com/jhp0204/terraform-aws-simple/vpc/"
+  source  = "tefserver.jhp0204.click/SDS/vpc/aws"
+  version = "2.12.0"
 }
 
