@@ -4,8 +4,3 @@ provider "aws" {
   secret_key = var.AWS_SECRET_ACCESS_KEY
 }
 
-module "vpc" {
-  source  = "tefserver.jhp0204.click/SDS/vpc/aws"
-  version = "2.12.0"
-}
-
